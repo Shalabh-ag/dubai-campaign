@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+body{
+    font-family: 'Plus Jakarta Sans';
+    letter-spacing: 0.5px;
+}

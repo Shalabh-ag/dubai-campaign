@@ -142,14 +142,14 @@ const Contact = ({ mobileMode }) => {
                             className="px-4 py-2 border border-gray-300 rounded-md text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
                         />
                     </div>
-              {/* <div className="md:col-span-2 flex flex-col lg:flex-row items-start justify-center mt-2 gap-4 relative z-[10000]">
+              <div className="md:col-span-2 flex flex-col lg:flex-row items-start justify-center mt-2 gap-4 relative z-[10000]">
                         <ReCAPTCHA
                             ref={recaptchaRef}
                             sitekey={import.meta.env.VITE_RECAPTCHA_SITE_KEY}
                             onChange={handleRecaptchaChange}
                             size={mobileMode ? "compact" : "normal"}
                         />
-                    </div>  */}
+                    </div> 
 
                     <div className="md:col-span-2 w-full flex justify-center items-center">
                         <button
